@@ -1,0 +1,322 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display: inline-block;
+}
+.header-con{
+    background-color: #121218;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-header{
+    flex-basis: 80%;
+    height: 280px;
+    margin: 5px; 
+    display: block;
+}
+
+.nav-box{
+   
+    flex-basis: 100%;
+    height: 180px;
+    display: flex;
+}
+
+.cnet-logo{
+   
+    flex-basis: 40%;
+    height: 180px;
+    
+}
+
+.better-future{
+   
+    flex-basis: 5%;
+    height: 180px;
+    padding-bottom: px;
+}
+
+.sub-join{
+    flex-basis: 50%;
+    height: 180px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.sjoin{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: .5rem;
+    height: 2rem;
+    display: flex;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0);
+    color: #d5baff;
+    fill: #d5baff;
+    color: #7a2af5;
+    background-color: rgba(0, 0, 0, 0);
+    border: .125rem solid #d5baff;
+    fill: #7a2af5;
+}
+.sjoin:hover{
+    background-color:rgb(125, 184, 37) ;
+}
+.login{
+    border-radius: 50px;
+    width: 68px;
+    height: 15px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: #b4fd8c;
+    fill: #121218;
+    font-size: 16px;
+    line-height: 20px;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    font-family: stardust, serif;
+}
+
+.login:hover{
+    background-color: #121218;
+    color: #b4fd8c;
+    border: 3px solid #b4fd8c;
+}
+
+.site-header{
+    text-transform: uppercase;
+    color: #e71d1d;
+    line-height: 22px;
+    text-align: right;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-family: stardust, serif;
+    font-weight: 600;
+   
+}
+
+.nav-box2{
+    flex-basis: 100%;
+    height: 99px;
+    display: flex;
+}
+.nav-infos{
+    flex-basis: 100%;
+    height: 99px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.infos{
+    width: 130px;
+    height: 40px;
+}
+
+ul li{
+    list-style: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    height: 70px;
+    overflow: visible;
+    font-family: monumentgrotesk, sans-serif;
+    padding: 8px;
+}
+
+
+.main-content{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: #121218;   
+}
+
+.editors-point{
+    flex-basis: 80%;
+    height: 400px;
+    display: flex;
+    margin-left: 10%;
+
+}
+
+.best1{
+    flex-basis: 164px;
+    height: 630px;
+    display: block;
+    position: relative;
+    z-index: 30;
+    background-color: #fcf95a;
+    padding: 24px 16px;
+    border-radius: 0 1rem 1rem 0; 
+    font-family: monumentgrotesk, sans-serif;
+    font-size: 14px;
+    color: rgb(2,2,3); 
+    word-spacing: .1em;
+    outline-color: rgb(2,2,3);
+    font-size: 1rem;
+    text-size-adjust: 100%;
+    line-height: 1.625rem;
+    margin: .5%;
+}
+
+.best2{
+    flex-basis: 80%;
+    height: 200px;
+    display: flex;
+    margin-left: .9%;
+}
+
+.air{
+    flex-basis: 645px; 
+    height: 400px;
+    display: flex;
+    margin: .5%;
+}
+
+.house{
+    flex-basis: 465.203px;
+    height: 345px;
+    display: flex;
+    padding: 1.5rem;
+    background: #ff5d53;
+    border-radius: 0 1rem 0 0; 
+    color: rgb(2,2,3); 
+    font-family: monumentgrotesk, sans-serif;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 26px;
+    outline-color: rgb(2,2,3);
+    padding: 24px;
+    text-size-adjust: 100%;
+    white-space: 1.6px;
+    margin: .5%;
+    border: 0px 0px 0px 16px;
+    background-size:auto ;
+    background-repeat:repeat ;
+    cursor: pointer;
+    background-attachment: scroll;
+}
+
+.house:hover{
+    background-color: #b4fd8c;
+}
+.foot{
+    width: 1296px;
+    height: 258.469px;
+    display: flex;
+}
+
+.main-footer{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-family: monumentgrotesk, sans-serif;
+    font-size: 16px;
+    margin-left: 440.5px;
+    margin-left: 440.5px;
+    position: relative;
+    line-height: 26px;
+    color: rgb(2,2,3); 
+    text-size-adjust: 100%;
+    cursor: pointer;
+    outline-color: rgb(2,2,3);   
+}
+
+.foot1{
+    flex-basis: 25%;
+    display: block;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: .3%;
+   
+}
+
+.foot2{
+    flex-basis: 25%;
+    display: block;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: .3%;
+   
+}
+
+.foot3{
+    flex-basis: 250%;
+    display: block;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: .3%;
+    
+}
+.foot4{
+    flex-basis: 25%;
+    display: block;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: .3%;
+}
+.gummies{
+    border-radius: 0 1rem 1rem 0; 
+}
+.news{
+    font-weight: bolder;
+    font-family: monumentgrotesk, sans-serif;
+}
+
+.com{
+    font-size: 12px;
+    font-family: monumentgrotesk, sans-serif;
+}
+
+.port{
+    font-size: 12px;
+    font-family: monumentgrotesk, sans-serif;
+    
+}
+
+.products{
+    font-size: 22px;
+    font-weight: lighter;
+    font-family: monumentgrotesk, sans-serif;
+    
+}
+
+.stand-best{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: monumentgrotesk, sans-serif;
+    margin: 1px;
+}
+
+.best-by{
+    border-bottom: 1px dotted grey;
+    font-size: 14px;
+    font-family: monumentgrotesk, sans-serif;
+}
+
+
+.best-by1{
+    font-size: 14px;
+    font-family: monumentgrotesk, sans-serif;
+}
+
+
+
+
+
+
+
+
